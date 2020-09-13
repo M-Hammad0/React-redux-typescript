@@ -28,4 +28,4 @@ jobs:
       run: npm install -g surge
       
     - name: Run surge
-      run: surge ./build https://notes-redux-mh.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build https://redux-notes-mh.surge.sh --token ${{secrets.SURGE_TOKEN}}
